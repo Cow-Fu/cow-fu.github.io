@@ -1,0 +1,30 @@
+html {
+  min-height: 100%;
+}
+
+body {
+  padding-top: 0px;
+  min-height: 100%;
+}
+
+h1.dramatic-in {
+  animation: dramatic-in 2s;
+}
+
+p.dramatic-in {
+  animation: dramatic-in 4s;
+}
+
+.blured-mc {
+  color: white;
+  background: black url(/images/group_pic.jpg) no-repeat scroll center center / crop;
+}
+
+@keyframes dramatic-in {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+}
