@@ -13,11 +13,13 @@ h1.dramatic-in {
 
 p.dramatic-in {
   animation: dramatic-in 4s;
+  font-size: 20px;
 }
 
-.blured-mc {
+.group-pic {
   color: white;
-  background: black url(/images/group_pic.jpg) no-repeat scroll center center / crop;
+  background: black url("/images/group_pic.jpg") no-repeat scroll center 10%;
+  text-shadow: 2px 2px #000000;
 }
 
 @keyframes dramatic-in {
